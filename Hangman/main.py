@@ -1,8 +1,9 @@
-from replit import clear
+import os
 import random
 import hangman_art
 import hangman_words
 
+clear = lambda: os.system('cls')
 chosen_word = random.choice(hangman_words.word_list)
 word_length = len(chosen_word)
 
