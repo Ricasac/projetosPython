@@ -56,31 +56,31 @@ elif userChoice == 1 and cpuChoice == 1:
     print(rock)
     print('You Win!')
 
-elif userChoice == 2 and cpuChoice == 2:
+elif userChoice == 1 and cpuChoice == 2:
     print(paper)
     print('Computer choice: ')
     print(paper)
     print('You Draw!')
 
-elif userChoice == 2 and cpuChoice == 3:
+elif userChoice == 1 and cpuChoice == 3:
     print(paper)
     print('Computer choice: ')
     print(scissors)
     print('You Lose!')
 
-elif userChoice == 3 and cpuChoice == 1:
+elif userChoice == 2 and cpuChoice == 1:
     print(scissors)
     print('Computer choice: ')
     print(rock)
     print('You Lose!')
 
-elif userChoice == 3 and cpuChoice == 2:
+elif userChoice == 2 and cpuChoice == 2:
     print(scissors)
     print('Computer choice: ')
     print(paper)
     print('You Win!')
 
-elif userChoice == 3 and cpuChoice == 3:
+elif userChoice == 2 and cpuChoice == 3:
     print(scissors)
     print('Computer choice: ')
     print(scissors)
